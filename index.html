@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="forecast.css">
+    <title>Clima Actual</title>
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">¡Consulta el clima de tu ciudad en tiempo real!</h1>
+        <div id="search-box">
+            <input type="text" id="search-city" placeholder="Ingresa una ciudad..." autocomplete="off">
+            <div id="display-cities">
+                <ul id="cities-list">
+                    <!-- Aquí se mostrarán las ciudades que coincidan con la búsqueda -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="weather-box">
+        <div id="current-info">
+            <h2 id="current-day"></h2>
+            <div id="current-weather">
+                <div id="current-weather-icon"></div>
+                <p id="current-weather-temp"></p>
+                <div id="current-details">
+                    <p>Viento: <span id="current-weather-wind"></span> </p>
+                    <p>Sensación Térmica: <span id="current-weather-apparent"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="forecast">
+        <h2>Pronóstico para los próximos días</h2>
+        <div id="forecast-days">
+            <!-- Aquí se mostrarán los pronósticos de los próximos días -->
+        </div>
+        <div id="forecast-hours">
+            <!-- Aquí se mostrarán los pronósticos por hora del día elegido -->
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
