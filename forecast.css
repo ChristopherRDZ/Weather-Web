@@ -124,7 +124,7 @@
 }
 .forecast-hour-temp{
     font-size: 1.125rem;
-    font-weight: lighter;
+    font-weight: normal;
     margin-right: 1rem;
 }
 .forecast-hour-wind{
