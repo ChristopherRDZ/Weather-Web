@@ -226,7 +226,7 @@ function renderForecastDays(){
         </div>`;
     }
     forecastDaysEl.innerHTML = forecastDaysHtml;
-    
+    forecastDayBtns = [];
     for(let i = 0; i < 7; i++){
         forecastDayBtns.push(document.getElementById(`forecast-day${i}`));
     }
